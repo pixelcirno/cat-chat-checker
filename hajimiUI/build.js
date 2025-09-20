@@ -130,7 +130,7 @@ const indexContent = `
     <meta charset="UTF-8">
     <link rel="icon" href="/assets/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gemini API 代理服务</title>
+    <title>cat-checker猫咪状态检查服务</title>
     ${Object.values(jsFileMap).map(file => `<script type="module" crossorigin src="/assets/${file}"></script>`).join('\n    ')}
     ${Object.values(cssFileMap).map(file => `<link rel="stylesheet" href="/assets/${file}">`).join('\n    ')}
   </head>
